@@ -55,6 +55,7 @@ public class Search {
                 return binarySearchV2(nums, target, mid + 1, right);
             } else 
                 return binarySearchV2(nums, target, left, mid - 1);
+                
         }
         return -1;
     }
